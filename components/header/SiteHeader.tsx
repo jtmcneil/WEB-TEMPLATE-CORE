@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { siteConfig } from "@/site";
+import { siteConfig } from "@/site.config";
 import Link from "next/link";
 
 /*
@@ -21,7 +21,7 @@ export function SiteHeader({
     right,
 }: SiteHeaderProps) {
     return (
-        <header className={`${className} bg-san-marino-200 w-full border-b`}>
+        <header className={`${className} w-full border-b`}>
             <div className="flex h-14 items-center justify-between">
                 <div className="flex items-center gap-4">
                     {left ?? <DefaultLogo />}

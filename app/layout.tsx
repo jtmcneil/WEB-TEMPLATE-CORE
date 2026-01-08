@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { siteConfig } from "@/site";
+import { siteConfig } from "@/site.config";
 import { geistSans, geistMono } from "@/styles/fonts";
-import "@/app/globals.css"
+import "@/app/globals.css";
 
 /*
 This layout is responsible for only the top level styles, metadata and html/body. Keep it simple
@@ -20,7 +20,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`min-h-screen bg-background text-foreground ${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`bg-background text-foreground min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
             >
                 {children}
             </body>

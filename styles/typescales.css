@@ -1,0 +1,159 @@
+/* Major Third - 1.25 */
+:major-third {
+    /* Copy and paste the below into @layer base in globals.css */
+
+    --h1-size: clamp(1.656rem, calc(1.427rem + 1.143vw), 2.284rem);
+    --h1-weight: 700;
+    --h1-line-height: 1.55;
+    --h1-letter-spacing: 0.02em;
+
+    --h2-size: clamp(1.399rem, calc(1.278rem + 0.609vw), 1.734rem);
+    --h2-weight: 600;
+    --h2-line-height: 1.55;
+    --h2-letter-spacing: 0.02em;
+
+    --h3-size: clamp(1.287rem, calc(1.205rem + 0.409vw), 1.511rem);
+    --h3-weight: 600;
+    --h3-line-height: 1.6;
+    --h3-letter-spacing: 0.025em;
+
+    --h4-size: clamp(1.183rem, calc(1.134rem + 0.244vw), 1.317rem);
+    --h4-weight: 500;
+    --h4-line-height: 1.6;
+    --h4-letter-spacing: 0.025em;
+
+    --h5-size: clamp(1.134rem, calc(1.1rem + 0.173vw), 1.229rem);
+    --h5-weight: 500;
+    --h5-line-height: 1.6;
+    --h5-letter-spacing: 0.03em;
+
+    --h6-size: clamp(1.088rem, calc(1.066rem + 0.109vw), 1.148rem);
+    --h6-weight: 500;
+    --h6-line-height: 1.6;
+    --h6-letter-spacing: 0.03em;
+
+    --body-size: clamp(1rem, calc(1rem + 0vw), 1rem);
+    --body-weight: 400;
+    --body-line-height: 1.6;
+    --body-letter-spacing: 0.03em;
+}
+
+/* Perfect Fourth - 1.33 */
+:perfect-fourth {
+    /* Copy and paste the below into @layer base in globals.css */
+
+    --h1-size: clamp(2.029rem, calc(1.769rem + 1.3vw), 2.744rem);
+    --h1-weight: 700;
+    --h1-line-height: 1.47;
+    --h1-letter-spacing: 0.015em;
+
+    --h2-size: clamp(1.603rem, calc(1.473rem + 0.65vw), 1.96rem);
+    --h2-weight: 600;
+    --h2-line-height: 1.47;
+    --h2-letter-spacing: 0.02em;
+
+    --h3-size: clamp(1.424rem, calc(1.34rem + 0.422vw), 1.657rem);
+    --h3-weight: 600;
+    --h3-line-height: 1.47;
+    --h3-letter-spacing: 0.02em;
+
+    --h4-size: clamp(1.266rem, calc(1.217rem + 0.244vw), 1.4rem);
+    --h4-weight: 500;
+    --h4-line-height: 1.52;
+    --h4-letter-spacing: 0.025em;
+
+    --h5-size: clamp(1.194rem, calc(1.159rem + 0.17vw), 1.287rem);
+    --h5-weight: 500;
+    --h5-line-height: 1.52;
+    --h5-letter-spacing: 0.03em;
+
+    --h6-size: clamp(1.125rem, calc(1.104rem + 0.106vw), 1.183rem);
+    --h6-weight: 500;
+    --h6-line-height: 1.52;
+    --h6-letter-spacing: 0.03em;
+
+    --body-size: clamp(1rem, calc(1rem + 0vw), 1rem);
+    --body-weight: 400;
+    --body-line-height: 1.52;
+    --body-letter-spacing: 0.03em;
+}
+
+/* Perfect Fifth - 1.5 */
+:perfect-fifth {
+    /* Copy and paste the below into @layer base in globals.css */
+
+    --h1-size: clamp(2.943rem, calc(2.614rem + 1.646vw), 3.848rem);
+    --h1-weight: 700;
+    --h1-line-height: 1.42;
+    --h1-letter-spacing: 0.008em;
+
+    --h2-size: clamp(2.053rem, calc(1.907rem + 0.731vw), 2.455rem);
+    --h2-weight: 600;
+    --h2-line-height: 1.47;
+    --h2-letter-spacing: 0.012em;
+
+    --h3-size: clamp(1.715rem, calc(1.626rem + 0.448vw), 1.962rem);
+    --h3-weight: 600;
+    --h3-line-height: 1.47;
+    --h3-letter-spacing: 0.016em;
+
+    --h4-size: clamp(1.433rem, calc(1.384rem + 0.244vw), 1.567rem);
+    --h4-weight: 500;
+    --h4-line-height: 1.47;
+    --h4-letter-spacing: 0.016em;
+
+    --h5-size: clamp(1.31rem, calc(1.277rem + 0.165vw), 1.401rem);
+    --h5-weight: 500;
+    --h5-line-height: 1.52;
+    --h5-letter-spacing: 0.02em;
+
+    --h6-size: clamp(1.197rem, calc(1.177rem + 0.099vw), 1.252rem);
+    --h6-weight: 500;
+    --h6-line-height: 1.52;
+    --h6-letter-spacing: 0.024em;
+
+    --body-size: clamp(1rem, calc(1rem + 0vw), 1rem);
+    --body-weight: 400;
+    --body-line-height: 1.52;
+    --body-letter-spacing: 0.024em;
+}
+
+/* Golden Ratio - 1.618 */
+:golden-ratio {
+    /* Copy and paste the below into @layer base in globals.css */
+
+    --h1-size: clamp(3.731rem, calc(3.348rem + 1.915vw), 4.784rem);
+    --h1-weight: 700;
+    --h1-line-height: 1.42;
+    --h1-letter-spacing: 0.006em;
+
+    --h2-size: clamp(2.406rem, calc(2.248rem + 0.788vw), 2.839rem);
+    --h2-weight: 600;
+    --h2-line-height: 1.47;
+    --h2-letter-spacing: 0.012em;
+
+    --h3-size: clamp(1.932rem, calc(1.839rem + 0.465vw), 2.187rem);
+    --h3-weight: 600;
+    --h3-line-height: 1.47;
+    --h3-letter-spacing: 0.016em;
+
+    --h4-size: clamp(1.551rem, calc(1.502rem + 0.244vw), 1.685rem);
+    --h4-weight: 500;
+    --h4-line-height: 1.47;
+    --h4-letter-spacing: 0.016em;
+
+    --h5-size: clamp(1.39rem, calc(1.357rem + 0.162vw), 1.479rem);
+    --h5-weight: 500;
+    --h5-line-height: 1.52;
+    --h5-letter-spacing: 0.02em;
+
+    --h6-size: clamp(1.245rem, calc(1.226rem + 0.096vw), 1.298rem);
+    --h6-weight: 500;
+    --h6-line-height: 1.52;
+    --h6-letter-spacing: 0.02em;
+
+    --body-size: clamp(1rem, calc(1rem + 0vw), 1rem);
+    --body-weight: 400;
+    --body-line-height: 1.52;
+    --body-letter-spacing: 0.024em;
+}

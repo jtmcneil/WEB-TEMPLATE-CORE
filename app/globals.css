@@ -1,18 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-    /* Add any theme styles here */
-    --color-san-marino-50: #f4f6fb;
-    --color-san-marino-100: #e7edf7;
-    --color-san-marino-200: #cad9ed;
-    --color-san-marino-300: #9cb9dd;
-    --color-san-marino-400: #6694ca;
-    --color-san-marino-500: #4377b4;
-    --color-san-marino-600: #3666a5;
-    --color-san-marino-700: #294b7b;
-    --color-san-marino-800: #254167;
-    --color-san-marino-900: #243956;
-    --color-san-marino-950: #182439;
+    /* Paste typescale sistem here */
 }
 
 @layer components {
@@ -29,5 +18,54 @@
     body {
         height: 100%;
         width: 100%;
+    }
+
+    h1 {
+        font-size: var(--h1-size);
+        font-weight: var(--h1-weight);
+        line-height: var(--h1-line-height);
+        letter-spacing: var(--h1-letter-spacing);
+    }
+
+    h2 {
+        font-size: var(--h2-size);
+        font-weight: var(--h2-weight);
+        line-height: var(--h2-line-height);
+        letter-spacing: var(--h2-letter-spacing);
+    }
+
+    h3 {
+        font-size: var(--h3-size);
+        font-weight: var(--h3-weight);
+        line-height: var(--h3-line-height);
+        letter-spacing: var(--h3-letter-spacing);
+    }
+
+    h4 {
+        font-size: var(--h4-size);
+        font-weight: var(--h4-weight);
+        line-height: var(--h4-line-height);
+        letter-spacing: var(--h4-letter-spacing);
+    }
+
+    h5 {
+        font-size: var(--h5-size);
+        font-weight: var(--h5-weight);
+        line-height: var(--h5-line-height);
+        letter-spacing: var(--h5-letter-spacing);
+    }
+
+    h6 {
+        font-size: var(--h6-size);
+        font-weight: var(--h6-weight);
+        line-height: var(--h6-line-height);
+        letter-spacing: var(--h6-letter-spacing);
+    }
+
+    p {
+        font-size: var(--body-size);
+        font-weight: var(--body-weight);
+        line-height: var(--body-line-height);
+        letter-spacing: var(--body-letter-spacing);
     }
 }

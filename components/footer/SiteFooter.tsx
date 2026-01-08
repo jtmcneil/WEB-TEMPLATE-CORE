@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { siteConfig } from "@/site";
+import { siteConfig } from "@/site.config";
 import Link from "next/link";
 
 /*
@@ -8,14 +8,20 @@ This way the footer can be composed within the layout is implemented in
 */
 
 type SiteFooterProps = {
+    className?: string;
     left?: ReactNode;
     center?: ReactNode;
     right?: ReactNode;
 };
 
-export function SiteFooter({ left, center, right }: SiteFooterProps) {
+export function SiteFooter({
+    className,
+    left,
+    center,
+    right,
+}: SiteFooterProps) {
     return (
-        <header className="bg-san-marino-300 border-t">
+        <header className={`${className} border-t`}>
             <div className="flex h-50 items-center justify-between">
                 <div className="flex items-center justify-end gap-4">
                     {left ?? (

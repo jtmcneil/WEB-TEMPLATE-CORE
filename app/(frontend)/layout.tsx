@@ -8,9 +8,9 @@ export default function PublicLayout({
 }>) {
     return (
         <>
-            <SiteHeader className="fixed top-0" />
+            <SiteHeader className="sticky top-0 bg-white px-5" />
             {children}
-            <SiteFooter />
+            <SiteFooter className="bg-white px-5" />
         </>
     );
 }
